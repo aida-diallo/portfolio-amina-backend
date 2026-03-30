@@ -25,13 +25,6 @@ app.use('/api/portfolio', portfolioRoutes);
 app.use('/api/upload', uploadRoutes);
 app.use('/api/contact', contactRoutes);
 
-// Servir le frontend en production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
-  });
-}
 
 app.listen(PORT, () => {
   console.log(`Serveur démarré sur le port ${PORT}`);
