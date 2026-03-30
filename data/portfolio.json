@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "name": "Amy Diallo",
+    "title": "Infirmière Diplômée d'État",
+    "subtitle": "Passionnée par le soin et le bien-être des patients",
+    "image": ""
+  },
+  "about": {
+    "description": "Infirmière diplômée d'État avec une passion profonde pour les soins aux patients. Mon approche allie compétence technique et empathie pour offrir des soins de qualité exceptionnelle. Je m'engage chaque jour à améliorer la vie de mes patients avec professionnalisme et bienveillance.",
+    "image": "",
+    "stats": [
+      {
+        "label": "Années d'expérience",
+        "value": "5+"
+      },
+      {
+        "label": "Patients accompagnés",
+        "value": "1000+"
+      },
+      {
+        "label": "Formations continues",
+        "value": "15+"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "1",
+      "name": "Soins infirmiers généraux",
+      "level": 95,
+      "icon": "heartbeat"
+    },
+    {
+      "id": "2",
+      "name": "Prise en charge des urgences",
+      "level": 90,
+      "icon": "emergency"
+    },
+    {
+      "id": "3",
+      "name": "Administration de médicaments",
+      "level": 95,
+      "icon": "medication"
+    },
+    {
+      "id": "4",
+      "name": "Soins post-opératoires",
+      "level": 85,
+      "icon": "surgery"
+    },
+    {
+      "id": "5",
+      "name": "Éducation thérapeutique",
+      "level": 88,
+      "icon": "education"
+    },
+    {
+      "id": "6",
+      "name": "Accompagnement des familles",
+      "level": 92,
+      "icon": "family"
+    },
+    {
+      "id": "3e826abd-899f-415e-b950-5615df4bca0a",
+      "name": "srtryedtyhrft",
+      "level": 100
+    }
+  ],
+  "experiences": [
+    {
+      "id": "1",
+      "title": "Infirmière en Service de Médecine",
+      "company": "Hôpital Central",
+      "location": "Paris",
+      "startDate": "2022",
+      "endDate": "Présent",
+      "description": "Prise en charge globale des patients, administration des traitements, coordination avec l'équipe médicale pluridisciplinaire.",
+      "current": true
+    },
+    {
+      "id": "2",
+      "title": "Infirmière en Service d'Urgences",
+      "company": "Clinique Sainte-Marie",
+      "location": "Lyon",
+      "startDate": "2020",
+      "endDate": "2022",
+      "description": "Gestion des urgences, triage des patients, soins d'urgence et stabilisation. Travail en équipe sous pression.",
+      "current": false
+    },
+    {
+      "id": "3",
+      "title": "Infirmière Stagiaire",
+      "company": "CHU de Bordeaux",
+      "location": "Bordeaux",
+      "startDate": "2019",
+      "endDate": "2020",
+      "description": "Stage de fin d'études en service de réanimation. Apprentissage des soins intensifs et de la surveillance continue.",
+      "current": false
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "Diplôme d'État d'Infirmier (DEI)",
+      "school": "Institut de Formation en Soins Infirmiers",
+      "year": "2020",
+      "description": "Formation complète en soins infirmiers, stages en milieu hospitalier"
+    },
+    {
+      "id": "2",
+      "degree": "Baccalauréat Scientifique",
+      "school": "Lycée Jean Moulin",
+      "year": "2017",
+      "description": "Mention Bien - Spécialité Sciences de la Vie et de la Terre"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Soins à domicile",
+      "description": "Prise en charge complète des soins infirmiers à domicile pour un suivi personnalisé.",
+      "icon": "home"
+    },
+    {
+      "id": "2",
+      "title": "Accompagnement hospitalier",
+      "description": "Suivi et accompagnement des patients tout au long de leur séjour hospitalier.",
+      "icon": "hospital"
+    },
+    {
+      "id": "3",
+      "title": "Éducation thérapeutique",
+      "description": "Formation et sensibilisation des patients et de leurs familles aux bonnes pratiques de santé.",
+      "icon": "education"
+    },
+    {
+      "id": "4",
+      "title": "Soins d'urgence",
+      "description": "Intervention rapide et efficace dans les situations d'urgence médicale.",
+      "icon": "emergency"
+    }
+  ],
+  "contact": {
+    "email": "amy.diallo@email.com",
+    "phone": "+33 6 00 00 00 00",
+    "location": "Paris, France",
+    "linkedin": "",
+    "availability": "Disponible pour de nouvelles opportunités"
+  },
+  "cv": "/uploads/06ab3f97-cdd8-4a3f-a8c9-b1517876d865.pdf"
+}
