@@ -1,16 +1,10 @@
 const express = require('express');
-const nodemailer = require('nodemailer');
+const { Resend } = require('resend');
 require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
 
 const router = express.Router();
 
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
-  }
-});
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 // POST /api/contact
 router.post('/', async (req, res) => {
@@ -167,9 +161,9 @@ ${message.replace(/\n/g, '<br/>')}
 </body>
 </html>`;
 
-    await transporter.sendMail({
-      from: `"Portfolio Amy Diallo" <${process.env.EMAIL_USER}>`,
-      to: process.env.EMAIL_TO || process.env.EMAIL_USER,
+    await resend.emails.send({
+      from: `Portfolio Amy Diallo <${process.env.RESEND_FROM_EMAIL}>`,
+      to: [process.env.EMAIL_TO],
       replyTo: email,
       subject: `Nouveau message de ${name} — Portfolio Amy Diallo`,
       html: htmlContent
